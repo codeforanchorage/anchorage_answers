@@ -1,4 +1,4 @@
-[Anchorage Answers](http://answers.honolulu.gov) is a new approach to make it easier for people to navigate city information and services quickly. It's a citizen-focused website that is question-driven, with clean, easy-to-navigate design. Unlike a portal destination, Anchorage Answers is like Google -- type in anything, and it probably gives you the answer you're looking for, using the words you know. Every page on the site is an answer to a potential Google search question by a citizen, written in simple, friendly language, as if you'd asked your neighbor a question. The content is organized based on citizen understanding, the intuitive way you'd think of a problem, not the way the city is organized internally.
+[Anchorage Answers](http://answers.anchorage.gov) is a new approach to make it easier for people to navigate city information and services quickly. It's a citizen-focused website that is question-driven, with clean, easy-to-navigate design. Unlike a portal destination, Anchorage Answers is like Google -- type in anything, and it probably gives you the answer you're looking for, using the words you know. Every page on the site is an answer to a potential Google search question by a citizen, written in simple, friendly language, as if you'd asked your neighbor a question. The content is organized based on citizen understanding, the intuitive way you'd think of a problem, not the way the city is organized internally.
 
 Anchorage Answers is designed to be very user-friendly. It declutters the govt website experience, and it solves a problem people ordinarily have. And we hope it makes people's lives easier. Inspired by Gov.uk, Anchorage Answers is a first-of-its-kind for municipal government, a partnership between Code for America and the City & County of Anchorage.
 
@@ -14,9 +14,9 @@ Anchorage Answers is designed to be very user-friendly. It declutters the govt w
 
 Mac OS X is best supported by Anchorage Answers, since it is what most of us at Code for America use. Ubuntu (and therefore presumeably other linux distributions) are also supported.  Windows is currently unsupported and untested.  
 
-[Instructions for OS X 10.8 Mountain Lion](https://github.com/codeforamerica/honolulu_answers/wiki/Installation-Instructions-for-OS-X-10.8-Mountain-Lion)
+[Instructions for OS X 10.8 Mountain Lion](https://github.com/codeforamerica/anchorage_answers/wiki/Installation-Instructions-for-OS-X-10.8-Mountain-Lion)
 
-Slightly outdated Ubuntu instructions are available [here](https://github.com/codeforamerica/honolulu_answers/wiki/Installation-Instructions-for-Ubuntu-12.04-Precise).
+Slightly outdated Ubuntu instructions are available [here](https://github.com/codeforamerica/anchorage_answers/wiki/Installation-Instructions-for-Ubuntu-12.04-Precise).
 
 
 ## Usage
@@ -25,7 +25,7 @@ Slightly outdated Ubuntu instructions are available [here](https://github.com/co
 
 ## Deploying to Heroku
     
-    $ heroku create honoluluanswers --stack cedar
+    $ heroku create anchorageanswers --stack cedar
     $ git push heroku master
     $ heroku config push
     $ heroku config set LD_LIBRARY_PATH='lib/native'
@@ -59,7 +59,7 @@ Here are some ways *you* can contribute:
 * by reviewing patches
 * [financially][]
 
-[issues]: https://github.com/codeforamerica/honolulu_answers/issues
+[issues]: https://github.com/codeforamerica/anchorage_answers/issues
 [financially]: https://secure.codeforamerica.org/page/contribute
 
 ## Submitting an Issue
@@ -124,6 +124,6 @@ Redistribution and use in source and binary forms, with or without modification,
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
-[![Code for America Tracker](http://stats.codeforamerica.org/codeforamerica/honolulu_answers.png)][tracker]
+[![Code for America Tracker](http://stats.codeforamerica.org/codeforamerica/anchorage_answers.png)][tracker]
 
-[tracker]: http://stats.codeforamerica.org/projects/honolulu_answers
+[tracker]: http://stats.codeforamerica.org/projects/anchorage_answers

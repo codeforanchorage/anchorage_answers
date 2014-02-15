@@ -12,7 +12,7 @@ Article.all.each do |a|
 end
 
 Article.all.each do |a|
-  a.content = a.content.gsub(/hnlanswers.herokuapp/, 'answers.honolulu.gov')
+  a.content = a.content.gsub(/hnlanswers.herokuapp/, 'answers.anchorage.gov')
   a.save
 end
 
