@@ -60,7 +60,7 @@ module Anchorageanswers
     config.assets.version = '1.2.2'
 
     # get precompilation working on heroku:
-    config.assets.initialize_on_precompile = false
+    config.assets.initialize_on_precompile = true
 
     config.serve_static_assets = false
 

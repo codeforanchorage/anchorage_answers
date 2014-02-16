@@ -29,7 +29,7 @@ gem 'cancan'                              # User permissions
 
 ## Search and NLP
 gem 'tanker'                              # library for interacting with Searchify
-gem 'hunspell-ffi'                        # Spellchecking library
+#gem 'hunspell-ffi'                        # Spellchecking library
 gem 'text'                                # NLP algorithms
 gem 'httparty'                            # For accessing APIs directly
 gem 'json'                                # Convert between JSON and Ruby objects
@@ -64,6 +64,9 @@ group :test, :development do
   gem 'seed_dump', '~> 0.6.0'             # Adds rake db:seed:dump to generate db/seeds.rb
 end
 
+group :production do
+  gem 'rails_12factor'
+end
 
 group :test do
   gem "sqlite3"                           # Use SQLite instead of PostgreSQL for tests

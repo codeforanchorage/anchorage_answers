@@ -15,16 +15,16 @@ Anchorageanswers::Application.configure do
   config.assets.compress = true
 
   # get assets working on Heroku
-  config.assets.initialize_on_precompile = false
+  config.assets.initialize_on_precompile = true
 
   # Don't fallback to assets pipeline if a precompiled asset is missed
-  config.assets.compile = true # TEMPORARILY TRUE PENDING FIX OF HEROKU ASSET PRECOMPILATION ISSUE
+  config.assets.compile = true # TEMPORARILY TRUE PENDING FIX OF HEROKU ASSET PRECOMPILATION ISSUE... temporarily... right.
 
   # Generate digests for assets URLs
   config.assets.digest = true
 
   # Precompile additional assets (application.js, application.css, and all non-JS/CSS are already added)
-  config.assets.precompile += %w( home.js style.css mobile.css.scss active_admin.js active_admin.css.scss )
+  config.assets.precompile += %w( home.js style.css mobile.css.scss active_admin.js active_admin.css.scss application-all.css application-admin.css.scss application-ie.css.scss application-mobile.css.scss application-print.css.scss guide.css.scss quick_answer.css.scss web_services.css.scss)
 
   # Defaults to Rails.root.join("public/assets")
   # config.assets.manifest = YOUR_PATH
