@@ -1,5 +1,5 @@
 <% set_meta_tags :description => @article.preview,
-                 :canonical => "http://answers.anchorage.gov#{request.fullpath}",
+                 :canonical => "http://anchorageanswers.com#{request.fullpath}",
                  :title => [@article.category.name, @article.title] %>
 <div class="page-container article">
   <div class="breadcrumbs">
@@ -25,8 +25,8 @@
               <div class="servicebox">
                 <a href="<%= @article.service_url%>" target="_blank"><img src="/assets/getting_started_btn.png" /></a>
               </div>
-              <h3 class="service">Anchorage.gov lets you do this online! </h3>
-              <p>This will take you directly to the online service on the anchorage.gov website.</p>
+              <h3 class="service">Muni.org lets you do this online! </h3>
+              <p>This will take you directly to the online service on the muni.org website.</p>
             </div>
           <% end %>
 
