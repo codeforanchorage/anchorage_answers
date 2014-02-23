@@ -30,7 +30,7 @@ gem 'cancan', '~> 1.6.8' # User permissions
 
 ## Search and NLP
 gem 'tanker', '~> 1.1.6' # library for interacting with Searchify
-#gem 'hunspell-ffi' # Spellchecking library
+gem 'ffi-hunspell' # Spellchecking library
 gem 'text', '~> 1.2.1' # NLP algorithms
 gem 'httparty', '~> 0.10.0' # For accessing APIs directly
 gem 'json', '~> 1.8.1' # Convert between JSON and Ruby objects
